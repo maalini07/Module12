@@ -22,8 +22,19 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+```
+  stack = []
+  
+  for i in range(3):
+      value = input(f"Enter value {i + 1}: ")
+      stack.append(value) 
+  
+  top_element = stack[-1]
+  print("Top element of the stack is:", top_element)
+```
 
 ## Output
+<img width="488" height="215" alt="446626041-efe4682a-74e7-4102-abfd-14a418f630fa" src="https://github.com/user-attachments/assets/e3529146-2a3b-432d-8b6f-766cc390234d" />
 
 ## Result
+Thus, the program has executed successfully
